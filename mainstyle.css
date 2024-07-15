@@ -1,0 +1,99 @@
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #172627;
+}
+
+/* 헤더 */
+/* 헤더 */
+header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: #172627;
+  color: #fff;
+  padding: 20px;
+  text-align: left; /* 왼쪽 정렬로 변경 */
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0; /* 기본 마진을 제거 */
+}
+
+
+
+/* 달력 */
+/* 달력 */
+#calendar {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #20CD8D;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 요소를 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 가운데 정렬 */
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 450px;
+  height: 750px;
+  margin: auto; /* 가운데 정렬을 위한 margin 설정 */
+  cursor: pointer;
+}
+
+/* 그룹 스터디 */
+#group {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #20CD8D;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 요소를 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 가운데 정렬 */
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 450px;
+  height: 750px;
+  margin: auto; /* 가운데 정렬을 위한 margin 설정 */
+  cursor: pointer;
+}
+
+/* 노트 */
+#note {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: #20CD8D;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 요소를 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 가운데 정렬 */
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 450px;
+  height: 750px;
+  margin: auto; /* 가운데 정렬을 위한 margin 설정 */
+  cursor: pointer;
+}
+
+
+
+/* 푸터 */
+footer {
+  grid-column: 1 / 4; /* 1부터 4까지 컬럼을 사용하여 전체를 차지 */
+  grid-row: 3 / 4; /* 세 번째 row에 배치 */
+  background-color: #172627;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  font-size: 14px;
+}
